@@ -1,7 +1,9 @@
 # library(here)
 
 raw = read.csv(here::here("00-data", "a-raw", "Raw Sample Data Undersize - RERUN - 30NOV2023.csv"))
-str(raw)
+
+### test
+
 plot(raw$size, raw$S470, log = 'x')
 plot(raw$size, raw$TD, log = 'x')
 
